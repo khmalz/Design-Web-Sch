@@ -1,0 +1,305 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* Akhir Font */
+
+/* ---------------Navbar--------------- */
+.nav-link:hover {
+   color: rgb(114, 126, 126) !important;
+}
+
+.tombol {
+   font-size: 14px;
+   color: rgb(0, 0, 165);
+   font-family: "Poppins", sans-serif;
+}
+
+.tbl-up:hover {
+   background-color: #d88e1f !important;
+}
+/* ---------------Akhir Navbar--------------- */
+
+/* ---------------Header--------------- */
+.gambar {
+   display: none;
+}
+
+.img {
+   width: 500px;
+   z-index: -1;
+}
+
+.tebel-banget {
+   font-weight: 900;
+}
+
+.button {
+   padding: 14px 25px;
+   text-decoration: none;
+   font-size: 16px;
+   transition: 0.3s;
+   font-family: "Passion One", cursive;
+}
+
+.button:hover {
+   background-color: #d88e1f !important;
+}
+/* ---------------Akhir Header--------------- */
+
+/* ---------------About--------------- */
+.container-d {
+   background-image: url("img/bg.png");
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+   padding-bottom: 150px;
+   left: 60px;
+   right: 20px;
+}
+
+.more {
+   padding: 12px 25px;
+   font-weight: bold;
+   font-size: 14px;
+   font-family: "Poppins", sans-serif;
+}
+
+.more:hover {
+   background-color: #d88e1f !important;
+}
+
+.card-body-s:hover {
+   box-shadow: 0 0 18px black;
+   transition: 250ms;
+}
+
+/* ---------------Akhir About--------------- */
+
+/* ---------------Design--------------- */
+.desc {
+   max-width: 400px;
+}
+
+.kartun {
+   top: 55px;
+}
+
+/* ---------------Akhir Design--------------- */
+
+/* ---------------Product--------------- */
+.kartun2 {
+   top: 15px;
+}
+/* ---------------Akhir Product--------------- */
+
+/* ---------------Contact--------------- */
+.button-contact {
+   padding: 15px 25px;
+   text-decoration: none;
+   font-size: 14px;
+   transition: 0.3s;
+   font-weight: bold;
+   font-family: "Poppins", sans-serif;
+}
+
+.button-contact:hover {
+   background-color: #d88e1f !important;
+}
+
+.orang-1 {
+   margin-top: -240px;
+}
+
+.orang-1 img {
+   width: 220px;
+   height: 100px;
+}
+
+.gambar-1 {
+   margin-left: 100px;
+   margin-top: 50px;
+}
+
+.gambar-2 {
+   margin-right: 150px;
+}
+
+.gambar-3 {
+   margin-top: 120px;
+   margin-left: 260px;
+}
+
+.gambar-4 {
+   margin-right: -50px;
+   margin-top: 230px;
+}
+
+.gambar-5 {
+   margin-top: 100px;
+   margin-right: 150px;
+}
+/* ---------------Akhir Contact--------------- */
+
+/* ---------------Marketing--------------- */
+
+.mt-kh {
+   margin-top: 40px;
+}
+
+.kotak {
+   cursor: pointer;
+}
+
+.titik {
+   margin-top: 80px !important;
+}
+/* ---------------Akhir Marketing--------------- */
+
+/* ---------------Footer--------------- */
+footer .container {
+   padding: 80px 0 70px;
+}
+
+footer p {
+   list-style: none;
+}
+
+footer p a {
+   text-decoration: none;
+   color: black;
+}
+
+footer p a:hover {
+   color: rgb(154, 146, 146);
+}
+
+form input {
+   border: 0.1px solid #0d6dfd60 !important;
+}
+
+form input::placeholder {
+   color: #0d6dfd80 !important;
+}
+
+.button-bawah {
+   font-family: "Poppins", sans-serif;
+   padding: 10px 14px;
+   font-weight: bold;
+   font-size: 14px;
+}
+
+.button-bawah:hover {
+   background-color: #d88e1f !important;
+}
+/* ---------------Akhir Footer--------------- */
+
+/* ---------------Responsive Breakpoints--------------- */
+
+@media screen and (max-width: 600px) {
+   .img {
+      display: none;
+      width: 500px;
+   }
+
+   .gambar {
+      display: block;
+   }
+   .gambar-1,
+   .gambar-2,
+   .gambar-3,
+   .gambar-4,
+   .gambar-5 {
+      display: none;
+   }
+
+   .marketing {
+      margin-top: 300px;
+   }
+}
+
+@media screen and (max-width: 800px) {
+   .img {
+      display: none;
+   }
+
+   .gambar {
+      text-align: center;
+      width: 400px;
+      display: block;
+   }
+}
+
+@media screen and (max-width: 1199px) {
+   .img {
+      width: 500px;
+      z-index: -1;
+   }
+
+   .gambar-1 {
+      margin-left: 10px;
+      margin-top: 50px;
+   }
+
+   .gambar-2 {
+      margin-right: 60px;
+   }
+
+   .gambar-3 {
+      margin-top: 120px;
+      margin-left: 60px;
+   }
+
+   .gambar-4 {
+      margin-right: -70px;
+      margin-top: 280px;
+   }
+
+   .gambar-5 {
+      margin-top: 100px;
+      margin-right: 60px;
+   }
+}
+
+@media screen and (max-width: 992px) {
+   .img {
+      width: 300px;
+      z-index: -1;
+   }
+}
+
+@media screen and (max-width: 376px) {
+   .button-video {
+      padding-left: 0 !important;
+   }
+}
+
+@media screen and (max-width: 770px) {
+   .gambar-1 {
+      margin-left: -30px;
+      margin-top: -10px;
+   }
+
+   .gambar-2 {
+      margin-top: -20px;
+      margin-right: 10px;
+   }
+
+   .gambar-3 {
+      margin-top: 170px;
+      margin-left: -20px;
+   }
+
+   .gambar-4 {
+      margin-right: -70px;
+      margin-top: 260px;
+   }
+
+   .gambar-5 {
+      margin-top: 100px;
+      margin-right: -20px;
+   }
+
+   .mt-kh {
+      margin-top: -60px;
+   }
+}
