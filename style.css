@@ -3,6 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* Akhir Font */
 
+body {
+   overflow-x: hidden;
+}
+
 /* ---------------Navbar--------------- */
 .nav-link:hover {
    color: rgb(114, 126, 126) !important;
